@@ -1,0 +1,6 @@
+[submodule "Apktool"]
+	path = Apktool
+	url = https://github.com/iBotPeaches/Apktool.git
+[submodule "SignApk"]
+	path = SignApk
+	url = https://github.com/techexpertize/SignApk.git

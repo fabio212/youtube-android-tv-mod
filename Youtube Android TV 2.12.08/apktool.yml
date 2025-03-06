@@ -1,0 +1,32 @@
+version: 2.11.0
+apkFileName: Youtube Android TV 2.12.08.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 29
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 21208320
+  versionName: 2.12.08
+sharedLibrary: false
+sparseResources: false
+compactEntries: false
+doNotCompress:
+- arsc
+- ogg
+- png
+- META-INF/services/com.google.protobuf.GeneratedExtensionRegistryLoader
+- android-support-multidex.version.txt
+- assets/fonts/Roboto-Regular-Subsetted.woff2
+- assets/icu/not_empty.txt
+- assets/not_empty.txt
+- assets/phenotype/com_google_android_libraries_performance_primes_package_metadata.binarypb
+- assets/ssl/not_empty.txt
+- assets/test/not_empty.txt
+- res/raw/com_google_android_libraries_performance_primes_registration_info.binarypb
