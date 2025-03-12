@@ -348,37 +348,37 @@
 
     new-array v2, v2, [Ljava/lang/String;
 
-    sget-object v3, Landroid/os/Build;->BRAND:Ljava/lang/String;
+    const-string v3, "motorola"
 
     const/4 v4, 0x0
 
     aput-object v3, v2, v4
 
-    sget-object v3, Landroid/os/Build;->DEVICE:Ljava/lang/String;
+    const-string v3, "lake"
 
     const/4 v5, 0x1
 
     aput-object v3, v2, v5
 
-    sget-object v3, Landroid/os/Build;->ID:Ljava/lang/String;
+    const-string v3, "PPWS29.98-49-3"
 
     const/4 v6, 0x2
 
     aput-object v3, v2, v6
 
-    sget-object v3, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
+    const-string v3, "motorola"
 
     const/4 v6, 0x3
 
     aput-object v3, v2, v6
 
-    sget-object v3, Landroid/os/Build;->MODEL:Ljava/lang/String;
+    const-string v3, "Moto G (7) Plus"
 
     const/4 v6, 0x4
 
     aput-object v3, v2, v6
 
-    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+    const-string v3, "28"
 
     .line 3
     invoke-static {v3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
